@@ -1,8 +1,6 @@
 ## Build
 
 ```
-mkdir build
-cd build
-meson ..
-ninja
+meson setup build
+ninja -C build
 ```
