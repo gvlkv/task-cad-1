@@ -1,3 +1,6 @@
+#ifndef TASK_CAD_1_CURVES_H_INCLUDED
+#define TASK_CAD_1_CURVES_H_INCLUDED
+
 #include <ostream>
 
 struct Point {
@@ -50,3 +53,5 @@ public:
   Point derivative_at(double t) const override;
   const char *tag() const override;
 };
+
+#endif
