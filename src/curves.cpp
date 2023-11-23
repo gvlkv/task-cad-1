@@ -1,6 +1,6 @@
 #include "curves.h"
-#include <cmath>
 
+#include <cmath>
 #undef NDEBUG
 #include <cassert>
 
